@@ -1,0 +1,155 @@
+Header{ background-image: url(city.jpg); 
+Background-repeat: no-repeat;
+Height: 300px;
+Text-shadow: 3px 2px 5px #000000;
+}
+#wrapper{ width: 77%;
+margin-left: auto;
+Margin-right: auto;
+Background-color: #FFFFFF;
+}
+Body{ background-color: #9fbee3; 
+Background-image: linear-gradient(to bottom, #FFFFFF, #9fbee3); 
+background-repeat: no-repeat;
+Font-family: arial; 
+Margin-top: 0;
+Margin-bottom: 0;
+}
+/* all h1 together */
+h1{ color: #FFFFFF;
+Color: hsla(214°, 74%, 77%);
+Opacity: 0.6;
+font-family: Georgia; 
+Line-height: 500%;
+Text-align: center;
+Font-size: 3em;
+Margin-top: 0;
+}
+H1 a{text-decoration: none; }
+H1 a:link{ color: #0f3a73; }
+H1 a:visited{ color: #d1afe3; }
+H1 a:hover{ color: #6e7073; }
+
+H2{ color: #9fbee3; 
+Padding-left: 1em;
+Border-top: 1px dashed #6e7073;
+}
+H3{ color: #6e7073; 
+Padding-left: 1em;
+}
+Nav{ Word-spacing: .5em; 
+Text-align: center;
+
+/*new*/
+Margin: 0;
+Padding: 0;
+Text-align: center;
+}
+/*new*/
+Nav li{ display: inline; }
+
+/*new*/
+Nav a{ display: inline;
+
+text-decoration: none; 
+Font-size: 1.7em;
+Font-family: Trebuchet MS;
+Line-height: 100%;
+Font-weight: bold;
+}
+Nav a:link{ color: #6e7073; }
+Nav a:visited{ color: #d1afe3; }
+Nav a:hover{ color: #9fbee3; }
+
+Main{ font-family: Trebuchet MS;
+}
+#dot{ Border-bottom: 1px dashed #6e7073; 
+}
+#dog, #me{ float: left;
+Padding-right: 1em;
+Padding-left: 1em;
+Height: 40%;
+Width: 40%;
+}
+#mom{ float: right;
+Padding-right: 1em;
+Padding-left: 1em;
+Width: 27%;
+}
+.article{ border-Width: 1px;
+Border-style: dashed;
+Border-color: #CCCCCC;
+Text-align: left;
+}
+.contact{ color: #CCCCCC; 
+}
+P{ Text-indent: 1em;
+Padding-left: 1em;
+Position: relative;
+left: 1px; 
+}
+
+Table{ margin: auto;
+Border: 1px solid #000066;
+Width: 800px; }
+
+td, th{ border-style: none; 
+Padding: .5em;
+Font-family: sans-serif; }
+
+Caption{ font-weight: verdana;
+Font-weight: bold;
+Font-size: 1.2em;
+Padding-bottom: .5em; }
+
+Tr:nth-of-type(even){ background-color: #f0f4f7; }
+
+thead{ background-color: #4e52bf; 
+Color: #FFFFFF}
+
+Form{ background-color: #f0f4f7;
+Font-family: Arial; 
+Width: 70%; 
+Padding-left: 70px; 
+Margin-left: 100px;}
+
+
+footer{ font-style: italic;
+Color: #6e7073;
+Text-align: center; 
+background-image: url(city.jpg);
+Background-repeat: no-repeat;
+Margin-bottom: 0px;
+Height: 40px;
+Text-decoration: none;
+}
+
+@media screen and (max-width: 640px){
+Body{ width: 100; }
+#wrapper{ width: 100%; }
+Nav a{ display: block; 
+Text-align: center; }
+Nav{ margin: 0; }
+
+Nav a:link{ color: #6e7073; 
+Border-bottom: 2px solid blue; 
+}
+Nav a:visited{ color: #d1afe3; 
+Border-bottom: 2px solid grey; 
+}
+Nav a:hover{ color: #9fbee3; 
+Border-bottom: 2px solid grey;
+}
+Nav ul{ padding: 0; }
+#mom{ width: 40%; }
+
+Table{ width: 20%; }
+Form{ margin-left: 0px; 
+Width: 80%; }
+
+}
+@media screen and (max-width: 1200px){
+#mom{ Width: 27%; }
+
+
+}
