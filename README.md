@@ -37,8 +37,8 @@ browsers including Internet Explorer.
 
 Project is created with:
 
-* HTML3
-* CSS5
+* HTML5
+* CSS3
 * Javascript
 
 
